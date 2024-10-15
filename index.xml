@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Zly's Reapack Repo" commit="30e635ab83cbc92ddb0ec5b4740fd33c48b199cb">
+<index version="1" name="Zly's Reapack Repo" commit="bd2af7571442874da93883e7cd98984606f4c787">
   <category name="Items Editing">
     <reapack name="meta_ExtendToNextItem.lua" type="script" desc="Extend To Next Item">
       <metadata>
@@ -450,6 +450,29 @@
         <source file="VideoAutoFlipper/VP_Presets/Rotate.eel">https://github.com/Zly-u/zly_reapack/raw/ee339a1074cb2cde8056a010f11516a122f6a942/Video/VideoAutoFlipper/VP_Presets/Rotate.eel</source>
         <source file="VideoAutoFlipper/VP_Presets/Scale.eel">https://github.com/Zly-u/zly_reapack/raw/ee339a1074cb2cde8056a010f11516a122f6a942/Video/VideoAutoFlipper/VP_Presets/Scale.eel</source>
         <source file="VideoAutoFlipper/VP_Presets/SolidColorFill.eel">https://github.com/Zly-u/zly_reapack/raw/ee339a1074cb2cde8056a010f11516a122f6a942/Video/VideoAutoFlipper/VP_Presets/SolidColorFill.eel</source>
+      </version>
+      <version name="1.2.0" author="Zly" time="2024-10-15T17:53:18Z">
+        <changelog><![CDATA[- Changed some logic for helper functions to be more reliable.
+- Added two more helpers: "Extend Last Frame to Next" and "Delete Last Frame Fills".]]></changelog>
+        <source main="main" file="VideoAutoFlipper/Zly_VideoAutoFlipper.lua">https://github.com/Zly-u/zly_reapack/raw/bd2af7571442874da93883e7cd98984606f4c787/Video/VideoAutoFlipper/Zly_VideoAutoFlipper.lua</source>
+        <source file="VideoAutoFlipper/images/img_jokeguy.png">https://github.com/Zly-u/zly_reapack/raw/bd2af7571442874da93883e7cd98984606f4c787/Video/VideoAutoFlipper/images/img_jokeguy.png</source>
+        <source file="VideoAutoFlipper/images/img_sigma.png">https://github.com/Zly-u/zly_reapack/raw/bd2af7571442874da93883e7cd98984606f4c787/Video/VideoAutoFlipper/images/img_sigma.png</source>
+        <source file="VideoAutoFlipper/images/img_squid.png">https://github.com/Zly-u/zly_reapack/raw/bd2af7571442874da93883e7cd98984606f4c787/Video/VideoAutoFlipper/images/img_squid.png</source>
+        <source file="VideoAutoFlipper/images/img_timeOfSigma.png">https://github.com/Zly-u/zly_reapack/raw/bd2af7571442874da93883e7cd98984606f4c787/Video/VideoAutoFlipper/images/img_timeOfSigma.png</source>
+        <source file="VideoAutoFlipper/images/img_who.png">https://github.com/Zly-u/zly_reapack/raw/bd2af7571442874da93883e7cd98984606f4c787/Video/VideoAutoFlipper/images/img_who.png</source>
+        <source file="VideoAutoFlipper/images/img_zenkuru.png">https://github.com/Zly-u/zly_reapack/raw/bd2af7571442874da93883e7cd98984606f4c787/Video/VideoAutoFlipper/images/img_zenkuru.png</source>
+        <source file="VideoAutoFlipper/VP_Presets/AspectratioFixer.eel">https://github.com/Zly-u/zly_reapack/raw/bd2af7571442874da93883e7cd98984606f4c787/Video/VideoAutoFlipper/VP_Presets/AspectratioFixer.eel</source>
+        <source file="VideoAutoFlipper/VP_Presets/BoxCrop.eel">https://github.com/Zly-u/zly_reapack/raw/bd2af7571442874da93883e7cd98984606f4c787/Video/VideoAutoFlipper/VP_Presets/BoxCrop.eel</source>
+        <source file="VideoAutoFlipper/VP_Presets/Chroma.eel">https://github.com/Zly-u/zly_reapack/raw/bd2af7571442874da93883e7cd98984606f4c787/Video/VideoAutoFlipper/VP_Presets/Chroma.eel</source>
+        <source file="VideoAutoFlipper/VP_Presets/Cropper.eel">https://github.com/Zly-u/zly_reapack/raw/bd2af7571442874da93883e7cd98984606f4c787/Video/VideoAutoFlipper/VP_Presets/Cropper.eel</source>
+        <source file="VideoAutoFlipper/VP_Presets/Flipper.eel">https://github.com/Zly-u/zly_reapack/raw/bd2af7571442874da93883e7cd98984606f4c787/Video/VideoAutoFlipper/VP_Presets/Flipper.eel</source>
+        <source file="VideoAutoFlipper/VP_Presets/Null.eel">https://github.com/Zly-u/zly_reapack/raw/bd2af7571442874da93883e7cd98984606f4c787/Video/VideoAutoFlipper/VP_Presets/Null.eel</source>
+        <source file="VideoAutoFlipper/VP_Presets/Opacity.eel">https://github.com/Zly-u/zly_reapack/raw/bd2af7571442874da93883e7cd98984606f4c787/Video/VideoAutoFlipper/VP_Presets/Opacity.eel</source>
+        <source file="VideoAutoFlipper/VP_Presets/PositionOffset.eel">https://github.com/Zly-u/zly_reapack/raw/bd2af7571442874da93883e7cd98984606f4c787/Video/VideoAutoFlipper/VP_Presets/PositionOffset.eel</source>
+        <source file="VideoAutoFlipper/VP_Presets/Pre-Compose.eel">https://github.com/Zly-u/zly_reapack/raw/bd2af7571442874da93883e7cd98984606f4c787/Video/VideoAutoFlipper/VP_Presets/Pre-Compose.eel</source>
+        <source file="VideoAutoFlipper/VP_Presets/Rotate.eel">https://github.com/Zly-u/zly_reapack/raw/bd2af7571442874da93883e7cd98984606f4c787/Video/VideoAutoFlipper/VP_Presets/Rotate.eel</source>
+        <source file="VideoAutoFlipper/VP_Presets/Scale.eel">https://github.com/Zly-u/zly_reapack/raw/bd2af7571442874da93883e7cd98984606f4c787/Video/VideoAutoFlipper/VP_Presets/Scale.eel</source>
+        <source file="VideoAutoFlipper/VP_Presets/SolidColorFill.eel">https://github.com/Zly-u/zly_reapack/raw/bd2af7571442874da93883e7cd98984606f4c787/Video/VideoAutoFlipper/VP_Presets/SolidColorFill.eel</source>
       </version>
     </reapack>
   </category>
